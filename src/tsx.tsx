@@ -1,3 +1,4 @@
+// `.js` extension works as expected
 import { items } from "./items.js";
 
 export default function () {
