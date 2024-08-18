@@ -23,7 +23,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
-    "types": ["vite/client"],
+    "types": ["mdx", "vite/client"],
     "verbatimModuleSyntax": true
   },
   "include": ["**/*"]
