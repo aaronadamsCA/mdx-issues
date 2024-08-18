@@ -1,0 +1,9 @@
+import { items } from "./items.tsx";
+
+## MDX
+
+<ul>
+  {Object.entries(items).map(([name, Component], index) => (
+    <Component key={index}>{name}</Component>
+  ))}
+</ul>
